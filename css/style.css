@@ -1,0 +1,77 @@
+.header {
+    background-color: #262336;
+    left: 45px;
+    padding: 10px;
+}
+
+.header img {
+    height: 70px;
+    width: 70px;
+}
+
+.header h3 {
+    /** TEXT GRADIENT */ color: #bcbac4; background-image: -webkit-linear-gradient(90deg, #bcbac4 50%, #dedee1 50%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+    margin: 0; 
+}
+
+.header p {
+    color: #8e8a9b;
+}
+
+.headertext {
+    position: relative;
+    left: 18px;
+}
+
+.navbar {
+    color: #8e8a9b;
+    border-bottom: 1px solid;
+}
+
+.navbar li {
+    display: inline;
+    font-size: 17px;
+    margin-right: 11px;
+}
+
+.topsection {
+    background-color: #262336;
+    padding-bottom: 15px;
+}
+
+.topsection h2 {
+    /** TEXT GRADIENT */ color: #bcbac4; background-image: -webkit-linear-gradient(90deg, #bcbac4 50%, #dedee1 50%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+}
+
+.topsection h1 {
+    color: white;
+}
+
+.topsectiontext4 {
+    color: #8e8a9b;
+}
+
+.topsectionbutton {
+    padding-top: 5px;
+}
+
+.topsection button {
+    background: rgb(151,145,178);
+    background: linear-gradient(180deg, rgba(151,145,178,1) 0%, rgba(111,107,133,1) 35%);
+    color: white;
+    border-radius: 6px;
+}
+
+.topmiddlesection {
+    background-color: #f29b66;
+}
+
+.controlmultidomain img {
+    height: 50px;
+    width: 50px;
+}
+
+.ftpdirect img {
+    height: 50px;
+    width: 50px;
+}
