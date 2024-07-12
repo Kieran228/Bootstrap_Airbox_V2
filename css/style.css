@@ -64,6 +64,16 @@
 
 .topmiddlesection {
     background-color: #f29b66;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.topmiddlesection h4 {
+    color: white;
+}
+
+.topmiddlesection h5 { 
+    /** TEXT GRADIENT */ color: #dccbc7; background-image: -webkit-linear-gradient(90deg, #dccbc7 50%, #e7d1c6 50%, #e7d1c6 50%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;     
 }
 
 .controlmultidomain img {
@@ -74,4 +84,51 @@
 .ftpdirect img {
     height: 50px;
     width: 50px;
+}
+
+.bottommiddlesection {
+    padding-top: 15px;
+    padding-right: 23px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+}
+
+.bottommiddlerow {
+    margin-bottom: 15px;
+}
+
+.bottommiddlerow img {
+    height: 280px;
+    width: 150px;
+}
+
+.bottommiddlerow2 img {
+    height: 280px;
+    width: 150px;
+}
+
+.bottomsection {
+    background-color: #262336;
+}
+
+.bottomsection h4 {
+    /** TEXT GRADIENT */ color: #dccbc7; background-image: -webkit-linear-gradient(90deg, #dccbc7 50%, #e7d1c6 50%, #e7d1c6 50%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+}
+
+.bottomsection li {
+    color: white;
+}
+
+li::marker {
+    color: orange;
+}
+
+.bottomsection p {
+    color: #8e8a9b;
+}
+
+.bottomsection button {
+    border-radius: 6px;
+    color: white;
+    background-color: #e65e32;
 }
