@@ -109,6 +109,8 @@
 
 .bottomsection {
     background-color: #262336;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .bottomsection h4 {
@@ -131,4 +133,14 @@ li::marker {
     border-radius: 6px;
     color: white;
     background-color: #e65e32;
+}
+
+.footer1 {
+    background-color: #322f40;
+    padding-top: 10px;
+}
+
+.footer1 img {
+    height: 90px;
+    width: 142px;
 }
