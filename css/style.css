@@ -93,6 +93,11 @@
     padding-bottom: 10px;
 }
 
+.bottommiddlesection button {
+    position: relative;
+    bottom: 29px;
+}
+
 .bottommiddlerow {
     margin-bottom: 15px;
 }
@@ -135,6 +140,10 @@ li::marker {
     background-color: #e65e32;
 }
 
+.bottomsectionrow1 {
+    padding-bottom: 10px;
+}
+
 .footer1 {
     background-color: #322f40;
     padding-top: 10px;
@@ -163,4 +172,9 @@ li::marker {
 
 .footer2text2 {
     color: #8e8a9b;
+}
+
+.footer2row2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
