@@ -144,3 +144,23 @@ li::marker {
     height: 90px;
     width: 142px;
 }
+
+.footer2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #1a1921;
+}
+
+.footer2 img {
+    height: 60px;
+    width: 60px;
+}
+
+.footer2 h3, p {
+    /** TEXT GRADIENT */ color: #bcbac4; background-image: -webkit-linear-gradient(90deg, #bcbac4 50%, #dedee1 50%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+     margin: 0; 
+}
+
+.footer2text2 {
+    color: #8e8a9b;
+}
