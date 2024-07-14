@@ -178,3 +178,23 @@ li::marker {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+@media (min-width: 768px) {
+    .headerlogo {
+        text-align: end;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar li {
+        position: relative;
+        left: 72px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bottommiddlesection img {
+        height: 350px;
+        width: 350px;
+    }
+}
