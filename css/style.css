@@ -76,6 +76,10 @@
     /** TEXT GRADIENT */ color: #dccbc7; background-image: -webkit-linear-gradient(90deg, #dccbc7 50%, #e7d1c6 50%, #e7d1c6 50%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;     
 }
 
+.controlmultidomain {
+    padding-bottom: 10px;
+}
+
 .controlmultidomain img {
     height: 50px;
     width: 50px;
@@ -179,6 +183,22 @@ li::marker {
     padding-bottom: 10px;
 }
 
+@media (min-width: 375px) {
+    .bottommiddlesection button {
+        height: 38px;
+        width: 105px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bottommiddlesection button {
+        position: relative;
+        bottom: 39px;
+        height: 59px;
+        width: 199px;
+    }
+}
+
 @media (min-width: 768px) {
     .headerlogo {
         text-align: end;
@@ -198,3 +218,37 @@ li::marker {
         width: 350px;
     }
 }
+
+@media (min-width: 768px) {
+    .footer1 img {
+        height: 90px;
+        width: 306px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .bottommiddlesection button {
+        position: relative;
+        bottom: 39px;
+        height: 59px;
+        width: 216px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header img {
+        display: flex;
+        align-items: center;
+    }
+    .headertext {
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+    }
+    .navbar li {
+        position: relative;
+        left: 416px;
+        top: 21px;
+    }
+}
+
